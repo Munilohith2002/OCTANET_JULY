@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+header {
+    background-color: #8a25ce;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+.background-container {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(https://png.pngtree.com/background/20210710/original/pngtree-delicious-coffee-shop-hand-drawn-brown-background-picture-image_993143.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.5); /* Optional: fallback color with transparency */
+}
+
+.hero {
+    background-image: url(https://png.pngtree.com/background/20210710/original/pngtree-delicious-coffee-shop-hand-drawn-brown-background-picture-image_993143.jpg);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 4rem 0;
+}
+
+.hero .cta-button {
+    background-color: #e93eb6;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about-us, .menu-highlights, .locations, .testimonials, .newsletter {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-us .cta-button, .menu-highlights .cta-button, .locations .cta-button, .testimonials .cta-button {
+    background-color: #ff6f61;
+    
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.menu-highlights .coffee-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.menu-highlights .coffee-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.testimonials .testimonial-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.testimonials .testimonial-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.newsletter input[type="email"] {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .social-media a, footer .quick-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+footer .contact-info p {
+    margin: 0;
+}
